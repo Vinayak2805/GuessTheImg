@@ -38,3 +38,10 @@
     background-color: rgb(241, 50, 50);
     font-size: 1rem;
 }
+
+
+@media only screen and (max-width:850px) {
+    img{
+        height: 100vh !important;
+    }
+}
