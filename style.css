@@ -1,0 +1,40 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    /* transition: all 1s ease !important; */
+    overflow: hidden;
+}
+
+.container1{
+    display: grid;
+    position: absolute;
+    top: 0;
+    z-index: 5;
+    width: 100vw;
+    grid-template-columns: repeat(14, 1fr);
+    
+    
+}
+
+.item{
+    background-color: black;
+    border: 2px solid;
+    height: 15vh;
+
+}
+
+.item:hover{
+    opacity: 0;
+}
+
+#btn{
+    position: absolute;
+    bottom: 1%;
+    left: 45%;
+    z-index: 10;
+    padding: .5rem;
+    border-radius: 5px;
+    background-color: rgb(241, 50, 50);
+    font-size: 1rem;
+}
